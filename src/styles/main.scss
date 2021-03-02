@@ -1,9 +1,12 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
-body {
-  background-color: antiquewhite;
-  color: brown;
-  text-align: center;
-  margin-top: 100px;
+#bioPage p {
+  width: 60%;
+  margin: left;
+  padding-left: 20px;
+}
+
+#technologiesPage ul {
+  list-style-type: none;
 }
