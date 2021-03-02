@@ -1,6 +1,10 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
+html {
+  scroll-behavior: smooth;
+}
+
 #bioPage p {
   width: 60%;
   margin: left;

@@ -4,9 +4,9 @@ const pageBuilder = () => {
     <div class="container-fluid">
     <a class="navbar-brand">Katy Fry</a>
     <ul id="navLinks" class="nav me-auto mb-2 mb-lg-0">
-      <li class="nav-item"><a id="navToBio" class="nav-link">Bio</a></li>
-      <li class="nav-item"><a id="navToTechnologies" class="nav-link">Technologies</a></li>
-      <li class="nav-item"><a id="navToProjects" class="nav-link">Projects</a></li>
+      <li class="nav-item"><a href="#bioPage" id="navToBio" class="nav-link">Bio</a></li>
+      <li class="nav-item"><a href="#technologiesPage" id="navToTechnologies" class="nav-link">Technologies</a></li>
+      <li class="nav-item"><a href="#projectsPage" id="navToProjects" class="nav-link">Projects</a></li>
     </ul>
   </div>  
   </nav>
@@ -36,6 +36,9 @@ const pageBuilder = () => {
     <li>Javascript</li>
     <li>Figma</li>
     <li>Bootstrap</li>
+    <li>FireBase</li>
+    <li>Postman</li>
+    <li>Github</li>
 
   </ul>
   </div>
