@@ -1,9 +1,140 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import url("https://use.typekit.net/oym2fvx.css");
+@import url("https://use.typekit.net/oym2fvx.css");
+html {
+  scroll-behavior: smooth;
+}
 
 body {
-  background-color: antiquewhite;
-  color: brown;
-  text-align: center;
-  margin-top: 100px;
+  background-color: #E6BEAE;
+}
+
+#navbar {
+  font-family: ivypresto-display, serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 2em;
+  color: white; 
+  background-color: #E6BEAE;
+}
+
+.logo {
+  height: 70px;
+  margin: 0;
+
+}
+
+a#navToProjects.nav-link, a#navToTechnologies.nav-link, a#navToBio.nav-link {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+
+#bioPage p {
+  font-family: ivypresto-text, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.25em;
+}
+
+#bioPage {
+  background-color: #E6BEAE;
+}
+
+#bioText {
+  width: 50%;
+}
+
+#katyPic {
+  width: 300px;
+  height: 300px;
+  border: 15px solid white;
+  margin: 20px;
+}
+
+#textCaro {
+  width: 100%;
+  height: 300px;
+}
+
+carousel-item.active, .carousel-item-next,.carousel-item-prev {
+  display:block;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 4%
+}
+
+#technologiesPage {
+  background-color: #855A5C;
+}
+
+#techHeader {
+  font-family: ivypresto-display, serif;
+  font-weight: 300;
+  font-style: italic;
+  color: white;
+  margin-left: 40px;
+}
+
+#technologiesPage ul {
+  list-style-type: none;
+  font-family: ivypresto-display, serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 2em;
+  color: #E6BEAE;
+  height: 100px;
+  background-color: #855A5C;
+}
+
+.techList {
+  margin: 10px;
+}
+
+.card-img-top {
+  height: 20rem;
+  width: 20rem;
+  margin: auto;
+}
+
+#projectsPage {
+  background-color:#E6BEAE;
+}
+
+#projectsTitle {
+  font-family: ivypresto-display, serif;
+  font-weight: 300;
+  font-style: italic;
+  color: #855A5C;
+  margin-left: 40px;
+}
+
+.card {
+  background-color: #f1ccbd;
+  border: none;
+  margin: 10px;
+}
+
+.card-title {
+  font-family: ivypresto-display, serif;
+  font-weight: 300;
+  font-style: italic;
+  color: #855A5C;
+}
+
+.description {
+  font-family: ivypresto-text, serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.techs {
+  font-family: ivypresto-display, serif;
+  font-weight: 300;
+  font-style: italic;
 }
