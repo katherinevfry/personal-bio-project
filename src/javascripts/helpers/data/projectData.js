@@ -18,7 +18,36 @@ const projects = [
     available: true,
     url: 'https://kf-sorting-hat.netlify.app/',
     githubUrl: 'https://github.com/katherinevfry/sorting-hat/projects/1',
-  }
+  },
+
+  {
+    title: 'Cool Project 3',
+    screenshot: 'https://github.com/katherinevfry/photo-area/blob/main/1.png?raw=true',
+    description: 'cool project description',
+    technologiesUsed: 'HTML, CSS, Vanilla Javascript, Bootstrap, Version Control with Github',
+    available: false,
+    url: 'https://kf-sorting-hat.netlify.app/',
+    githubUrl: 'https://github.com/katherinevfry/sorting-hat/projects/1',
+  },
+  {
+    title: 'Cool Project 4',
+    screenshot: 'https://github.com/katherinevfry/photo-area/blob/main/1.png?raw=true',
+    description: 'cool project description',
+    technologiesUsed: 'HTML, CSS, Vanilla Javascript, Bootstrap, Version Control with Github',
+    available: false,
+    url: 'https://kf-sorting-hat.netlify.app/',
+    githubUrl: 'https://github.com/katherinevfry/sorting-hat/projects/1',
+  },
+
+  {
+    title: 'Cool Project 5',
+    screenshot: 'https://github.com/katherinevfry/photo-area/blob/main/1.png?raw=true',
+    description: 'cool project description',
+    technologiesUsed: 'HTML, CSS, Vanilla Javascript, Bootstrap, Version Control with Github',
+    available: false,
+    url: 'https://kf-sorting-hat.netlify.app/',
+    githubUrl: 'https://github.com/katherinevfry/sorting-hat/projects/1',
+  },
 ];
 
 export default projects;
