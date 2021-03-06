@@ -15,7 +15,7 @@ const pageBuilder = () => {
   <!-- Primary View -->
   <div class="d-flex flex-row justify-content-center" id="bioPage">
     <div id="bioImage">
-    <img id="katyPic" src="src/images/katy-pic2.png">
+    <img id="katyPic" src="https://github.com/katherinevfry/photo-area/blob/main/katy-pic2.png?raw=true">
     </div>
     <div id="bioText"></div>
     
