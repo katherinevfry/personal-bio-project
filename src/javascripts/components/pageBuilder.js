@@ -2,7 +2,7 @@ const pageBuilder = () => {
   document.querySelector('#bio').innerHTML = ` <!-- Navigation -->
   <nav class="navbar" id="navbar">
     <div class="container-fluid">
-    <a class="navbar-left"><h1>katherine fry</h1>
+    <a class="navbar-left"><h1>katy fry</h1>
     <ul id="navLinks" class="nav me-auto mb-2 mb-lg-0">
       <li class="nav-item text-my-own-color"><a href="#bioPage" id="navToBio" class="nav-link">about</a></li>
       <li class="nav-item"><a href="#technologiesPage" id="navToTechnologies" class="nav-link">technologies</a></li>
@@ -15,7 +15,7 @@ const pageBuilder = () => {
   <!-- Primary View -->
   <div class="d-flex flex-row justify-content-center" id="bioPage">
     <div id="bioImage">
-    <img id="katyPic" src="src/images/katypic.jpg">
+    <img id="katyPic" src="src/images/katy-pic2.png">
     </div>
     <div id="bioText"></div>
     
@@ -39,16 +39,16 @@ const pageBuilder = () => {
   <div class="d-flex flex-row flex-wrap justify-content-center" id="projectsDisplay"></div>
   </div>
   
-  <!-- Footer -->
-  <footer class="page-footer">
-    <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
-    <h5>Katy Fry</h5>
-    <a href="mailto:katyvfry@gmail.com">Email</a>
-    <a href="https://www.linkedin.com/in/katherine-fry-3105ba140/">Linked In</a>
-    <a href="https://github.com/katherinevfry">GitHub</a>
-    <a href="https://www.instagram.com/katherinevfry/">Instagram</a>
-  </footer>
-  <!-- End Footer -->`;
+  <nav class="navbar" id="footer">
+    <div class="container-fluid">
+    <ul id="footerLinks" class="nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item"><a href="mailto:katyvfry@gmail.com" id="email" class="nav-link">email</a></li>
+      <li class="nav-item"><a href="https://www.linkedin.com/in/katherine-fry-3105ba140/" id="linkedin" class="nav-link">linked in</a></li>
+      <li class="nav-item"><a href="https://github.com/katherinevfry" id="github" class="nav-link">github</a></li>
+      <li class="nav-item"><a href="https://www.instagram.com/katherinevfry/" id="insta" class="nav-link">instagram</a></li>
+    </ul>
+  </div>  
+  </nav>`;
 };
 
 export default pageBuilder;
