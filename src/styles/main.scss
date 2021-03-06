@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background-color: #E6BEAE;
+  background-color: #1C3732;
 }
 
 #navbar {
@@ -15,8 +15,8 @@ body {
   font-weight: 300;
   font-style: italic;
   font-size: 2em;
-  color: white; 
-  background-color: #E6BEAE;
+  color: #eae6da;
+  background-color: #1C3732;
 }
 
 .logo {
@@ -26,11 +26,11 @@ body {
 }
 
 a#navToProjects.nav-link, a#navToTechnologies.nav-link, a#navToBio.nav-link {
-  color: white;
+  color: #eae6da;
 }
 
 h1 {
-  color: white;
+  color: #eae6da;
 }
 
 
@@ -39,10 +39,12 @@ h1 {
   font-weight: 300;
   font-style: normal;
   font-size: 1.25em;
+  color: #eae6da;
+  margin-top: 40px;
 }
 
 #bioPage {
-  background-color: #E6BEAE;
+  background-color: #1C3732;
 }
 
 #bioText {
@@ -50,9 +52,8 @@ h1 {
 }
 
 #katyPic {
-  width: 300px;
-  height: 300px;
-  border: 15px solid white;
+  width: 30rem;
+  height: 30rem;
   margin: 20px;
 }
 
@@ -70,14 +71,14 @@ carousel-item.active, .carousel-item-next,.carousel-item-prev {
 }
 
 #technologiesPage {
-  background-color: #855A5C;
+  background-color: #eae6da;
 }
 
 #techHeader {
   font-family: ivypresto-display, serif;
   font-weight: 300;
   font-style: italic;
-  color: white;
+  color: #c5884d;
   margin-left: 40px;
 }
 
@@ -87,9 +88,9 @@ carousel-item.active, .carousel-item-next,.carousel-item-prev {
   font-weight: 300;
   font-style: italic;
   font-size: 2em;
-  color: #E6BEAE;
+  color: #1C3732;
   height: 100px;
-  background-color: #855A5C;
+  background-color: #eae6da;
 }
 
 .techList {
@@ -103,19 +104,19 @@ carousel-item.active, .carousel-item-next,.carousel-item-prev {
 }
 
 #projectsPage {
-  background-color:#E6BEAE;
+  background-color:#1C3732;
 }
 
 #projectsTitle {
   font-family: ivypresto-display, serif;
   font-weight: 300;
   font-style: italic;
-  color: #855A5C;
+  color: #c5884d;
   margin-left: 40px;
 }
 
 .card {
-  background-color: #f1ccbd;
+  background-color: #26443f;
   border: none;
   margin: 10px;
 }
@@ -124,17 +125,32 @@ carousel-item.active, .carousel-item-next,.carousel-item-prev {
   font-family: ivypresto-display, serif;
   font-weight: 300;
   font-style: italic;
-  color: #855A5C;
+  color: #c5884d;
 }
 
 .description {
   font-family: ivypresto-text, serif;
   font-weight: 300;
   font-style: normal;
+  color: #eae6da;
 }
 
 .techs {
   font-family: ivypresto-display, serif;
   font-weight: 300;
   font-style: italic;
+  color: #c5884d;
+}
+
+#footer {
+  background-color: #c5884d;
+  font-family: ivypresto-display, serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+a#email.nav-link, a#github.nav-link, a#linkedin.nav-link, a#insta.nav-link {
+  color: #eae6da;
+  text-align: center;
 }
