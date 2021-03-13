@@ -13,11 +13,19 @@ const pageBuilder = () => {
   <!-- End Navigation -->
 
   <!-- Primary View -->
-  <div class="d-flex flex-row justify-content-center" id="bioPage">
-    <div id="bioImage">
-    <img id="katyPic" src="https://github.com/katherinevfry/photo-area/blob/main/katy-pic2.png?raw=true">
+
+  <div class="card mb-3" id="bioPage">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img id="katyPic" src="https://github.com/katherinevfry/photo-area/blob/main/katy-pic2.png?raw=true" alt="bioImage">
     </div>
-    <div id="bioText"></div>
+    <div class="col-md-8">
+      <div class="card-body">
+      <div id="bioText"></div>
+      </div>
+    </div>
+  </div>
+</div>
     
   </div>
   <div class="fullPage" id="technologiesPage">
